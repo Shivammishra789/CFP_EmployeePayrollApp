@@ -1,0 +1,61 @@
+INFO :: root :: 2022-01-04 23:29:51,777 :: Trying to establish the database connection
+ERROR :: root :: 2022-01-04 23:30:43,416 :: Connection not Established
+INFO :: root :: 2022-01-04 23:35:53,089 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 23:35:54,468 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-04 23:35:54,498 :: Started server process [4556]
+INFO :: uvicorn.error :: 2022-01-04 23:35:54,498 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 23:35:54,533 :: Application startup complete.
+INFO :: root :: 2022-01-04 23:38:28,753 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-04 23:38:28,754 :: Employee Details are : [{'id': 3, 'name': 'Alex', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img3.png', 'gender': 'Male', 'department': 'HR', 'salary': 40000.0, 'start_date': datetime.date(2010, 1, 2), 'notes': 'Hard Working'}, {'id': 4, 'name': 'Manali', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'Finance', 'salary': 2500000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 7, 'name': 'Bill', 'profile_image': 'df.png', 'gender': 'Male', 'department': 'Account', 'salary': 458000.0, 'start_date': datetime.date(2015, 1, 4), 'notes': 'acct section'}, {'id': 8, 'name': 'Sam', 'profile_image': 'ds.png', 'gender': 'Male', 'department': 'Account', 'salary': 400000.0, 'start_date': datetime.date(2005, 1, 4), 'notes': 'acct section'}, {'id': 9, 'name': 'Samu', 'profile_image': 'ds.png', 'gender': 'Female', 'department': 'Account', 'salary': 300000.0, 'start_date': datetime.date(2007, 1, 4), 'notes': 'acct section'}, {'id': 13, 'name': 'mukul', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'Finance', 'salary': 52000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 14, 'name': 'Manal', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'Finance', 'salary': 3500000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}]
+INFO :: root :: 2022-01-04 23:41:18,181 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-04 23:41:18,182 :: Employee Details are : {'name': 'Mana', 'profile': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'Finance', 'salary': 300000.0, 'start_date': datetime.date(2014, 1, 2), 'notes': 'Team player'}
+INFO :: root :: 2022-01-04 23:47:55,392 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 23:48:01,247 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-04 23:48:01,265 :: Started server process [9152]
+INFO :: uvicorn.error :: 2022-01-04 23:48:01,265 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 23:48:01,266 :: Application startup complete.
+INFO :: root :: 2022-01-04 23:54:36,808 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-04 23:54:36,808 :: Employee Details are : {'message': "Error : 1054 (42S22): Unknown column 'Manav' in 'where clause'"}
+INFO :: root :: 2022-01-04 23:59:05,399 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 23:59:05,908 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-04 23:59:05,925 :: Started server process [7764]
+INFO :: uvicorn.error :: 2022-01-04 23:59:05,926 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 23:59:05,927 :: Application startup complete.
+INFO :: root :: 2022-01-04 23:59:15,663 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-04 23:59:15,663 :: Employee Details are : {'message': "Error : 1054 (42S22): Unknown column 'Manav' in 'where clause'"}
+INFO :: root :: 2022-01-04 23:59:31,075 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-04 23:59:31,075 :: Employee Details are : [{'id': 3, 'name': 'Alex', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img3.png', 'gender': 'Male', 'department': 'HR', 'salary': 40000.0, 'start_date': datetime.date(2010, 1, 2), 'notes': 'Hard Working'}, {'id': 4, 'name': 'Manali', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'Finance', 'salary': 2500000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 7, 'name': 'Bill', 'profile_image': 'df.png', 'gender': 'Male', 'department': 'Account', 'salary': 458000.0, 'start_date': datetime.date(2015, 1, 4), 'notes': 'acct section'}, {'id': 8, 'name': 'Sam', 'profile_image': 'ds.png', 'gender': 'Male', 'department': 'Account', 'salary': 400000.0, 'start_date': datetime.date(2005, 1, 4), 'notes': 'acct section'}, {'id': 9, 'name': 'Samu', 'profile_image': 'ds.png', 'gender': 'Female', 'department': 'Account', 'salary': 300000.0, 'start_date': datetime.date(2007, 1, 4), 'notes': 'acct section'}, {'id': 13, 'name': 'mukul', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'Finance', 'salary': 52000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 14, 'name': 'Manal', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'Finance', 'salary': 3500000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 15, 'name': 'Mana', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'Finance', 'salary': 300000.0, 'start_date': datetime.date(2014, 1, 2), 'notes': 'Team player'}, {'id': 16, 'name': 'Manav', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 17, 'name': 'Manav', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}]
+INFO :: root :: 2022-01-05 00:00:50,622 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 00:00:50,911 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 00:00:50,923 :: Started server process [9424]
+INFO :: uvicorn.error :: 2022-01-05 00:00:50,924 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 00:00:50,924 :: Application startup complete.
+INFO :: root :: 2022-01-05 00:01:17,111 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-05 00:01:17,111 :: Employee Details are : {'message': "Error : 1054 (42S22): Unknown column 'Man' in 'where clause'"}
+INFO :: root :: 2022-01-05 00:05:59,788 :: Trying to establish the database connection
+ERROR :: root :: 2022-01-05 00:06:14,468 :: Connection not Established
+INFO :: root :: 2022-01-05 00:07:03,207 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 00:07:03,242 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 00:07:03,260 :: Started server process [864]
+INFO :: uvicorn.error :: 2022-01-05 00:07:03,260 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 00:07:03,261 :: Application startup complete.
+INFO :: root :: 2022-01-05 00:07:23,640 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-05 00:07:23,641 :: Employee Details are : {'id': <mysql.connector.cursor_cext.CMySQLCursorDict object at 0x00000075B0A8BBE0>, 'name': 'Man', 'profile': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}
+ValueError: [TypeError("'_mysql_connector.MySQL' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+INFO :: root :: 2022-01-05 00:14:39,600 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 00:14:43,094 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 00:14:43,107 :: Started server process [9508]
+INFO :: uvicorn.error :: 2022-01-05 00:14:43,109 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 00:14:43,111 :: Application startup complete.
+INFO :: root :: 2022-01-05 00:16:11,719 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-05 00:16:11,720 :: Employee Details are : [{'id': 20, 'name': 'Ma', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}]
+INFO :: root :: 2022-01-05 00:25:12,930 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 00:25:14,332 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 00:25:14,343 :: Started server process [5068]
+INFO :: uvicorn.error :: 2022-01-05 00:25:14,344 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 00:25:14,344 :: Application startup complete.
+INFO :: root :: 2022-01-05 00:29:19,390 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-05 00:29:19,390 :: Employee ID is : 20
+INFO :: root :: 2022-01-05 00:29:43,809 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-05 00:29:43,810 :: Employee ID is : 19
+
