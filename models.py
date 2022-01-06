@@ -11,6 +11,7 @@ class EmployeePayroll(BaseModel):
     """
     Contains different parameters of employee like id, name, gender etc
     """
+    id: int
     name: str
     profile_image: str
     gender: str

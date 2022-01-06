@@ -59,3 +59,483 @@ DEBUG :: root :: 2022-01-05 00:29:19,390 :: Employee ID is : 20
 INFO :: root :: 2022-01-05 00:29:43,809 :: Successfully Deleted The Employee Details
 DEBUG :: root :: 2022-01-05 00:29:43,810 :: Employee ID is : 19
 
+INFO :: root :: 2022-01-05 07:34:46,242 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:34:47,436 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 07:34:47,479 :: Started server process [9180]
+INFO :: uvicorn.error :: 2022-01-05 07:34:47,480 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:34:47,523 :: Application startup complete.
+INFO :: root :: 2022-01-05 07:38:16,587 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:38:16,588 :: Employee Details are : {'message': 'Error : id not found'}
+INFO :: root :: 2022-01-05 07:41:00,531 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:41:01,003 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 07:41:01,018 :: Started server process [8148]
+INFO :: uvicorn.error :: 2022-01-05 07:41:01,018 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:41:01,019 :: Application startup complete.
+INFO :: root :: 2022-01-05 07:41:08,841 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:41:08,841 :: Employee Details are : []
+INFO :: root :: 2022-01-05 07:42:38,500 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:42:38,533 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 07:42:38,544 :: Started server process [11076]
+INFO :: uvicorn.error :: 2022-01-05 07:42:38,545 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:42:38,545 :: Application startup complete.
+INFO :: root :: 2022-01-05 07:42:41,992 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:42:41,992 :: Employee Details are : []
+INFO :: root :: 2022-01-05 07:42:45,702 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:42:45,702 :: Employee Details are : []
+INFO :: root :: 2022-01-05 07:46:13,271 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:46:13,302 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 07:46:13,318 :: Started server process [916]
+INFO :: uvicorn.error :: 2022-01-05 07:46:13,318 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:46:13,319 :: Application startup complete.
+INFO :: root :: 2022-01-05 07:46:17,395 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:46:17,395 :: Employee Details are : {'message': 'Error : pop from empty list'}
+INFO :: root :: 2022-01-05 07:47:59,186 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:47:59,217 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 07:47:59,228 :: Started server process [6180]
+INFO :: uvicorn.error :: 2022-01-05 07:47:59,229 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:47:59,230 :: Application startup complete.
+INFO :: root :: 2022-01-05 07:48:02,781 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:48:02,781 :: Employee Details are : {'message': 'Error : id not found'}
+INFO :: root :: 2022-01-05 07:49:56,081 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:49:56,142 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 07:49:56,157 :: Started server process [5260]
+INFO :: uvicorn.error :: 2022-01-05 07:49:56,157 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:49:56,158 :: Application startup complete.
+INFO :: root :: 2022-01-05 07:49:59,936 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:49:59,936 :: Employee Details are : {'message': 'Error : id not found'}
+INFO :: root :: 2022-01-05 07:50:04,901 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:50:04,902 :: Employee Details are : {'message': 'Error : id not found'}
+INFO :: root :: 2022-01-05 07:53:39,106 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:53:39,137 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 07:53:39,149 :: Started server process [4568]
+INFO :: uvicorn.error :: 2022-01-05 07:53:39,149 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:53:39,150 :: Application startup complete.
+INFO :: root :: 2022-01-05 07:54:07,379 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:54:07,379 :: Employee Details are : {'message': 'Error : id not found'}
+INFO :: root :: 2022-01-05 07:54:28,269 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:54:28,270 :: Employee Details are : [{'id': 9, 'name': 'Samu', 'profile_image': 'ds.png', 'gender': 'Female', 'department': 'Account', 'salary': 300000.0, 'start_date': datetime.date(2007, 1, 4), 'notes': 'acct section'}]
+INFO :: root :: 2022-01-05 07:55:12,269 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:55:12,301 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 07:55:12,316 :: Started server process [2892]
+INFO :: uvicorn.error :: 2022-01-05 07:55:12,317 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:55:12,317 :: Application startup complete.
+INFO :: root :: 2022-01-05 07:55:52,715 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:55:52,746 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 07:55:52,760 :: Started server process [2008]
+INFO :: uvicorn.error :: 2022-01-05 07:55:52,761 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:55:52,762 :: Application startup complete.
+INFO :: root :: 2022-01-05 07:55:56,352 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:55:56,353 :: Employee Details are : {'message': "Error : id can't be None"}
+INFO :: root :: 2022-01-05 07:57:01,497 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:57:01,529 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 07:57:01,540 :: Started server process [6864]
+INFO :: uvicorn.error :: 2022-01-05 07:57:01,540 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:57:01,541 :: Application startup complete.
+INFO :: root :: 2022-01-05 07:57:15,412 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:57:15,412 :: Employee Details are : {'message': "Error : 1054 (42S22): Unknown column 'None' in 'where clause'"}
+INFO :: root :: 2022-01-05 07:57:33,303 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:57:33,304 :: Employee Details are : {'message': "Error : id can't be empty"}
+INFO :: root :: 2022-01-05 07:57:50,070 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:57:50,070 :: Employee Details are : {'message': "Error : 1054 (42S22): Unknown column 'None' in 'where clause'"}
+INFO :: root :: 2022-01-05 07:58:44,628 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:58:44,664 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 07:58:44,678 :: Started server process [6804]
+INFO :: uvicorn.error :: 2022-01-05 07:58:44,679 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:58:44,679 :: Application startup complete.
+INFO :: root :: 2022-01-05 07:58:48,446 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:58:48,446 :: Employee Details are : {'message': "Error : 1054 (42S22): Unknown column 'None' in 'where clause'"}
+INFO :: root :: 2022-01-05 07:58:53,429 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:58:53,429 :: Employee Details are : {'message': "Error : 1054 (42S22): Unknown column 'None' in 'where clause'"}
+INFO :: root :: 2022-01-05 07:59:31,308 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:59:31,337 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 07:59:31,349 :: Started server process [9536]
+INFO :: uvicorn.error :: 2022-01-05 07:59:31,349 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:59:31,349 :: Application startup complete.
+INFO :: root :: 2022-01-05 07:59:38,957 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:59:38,957 :: Employee Details are : {'message': "Error : id can't be empty"}
+INFO :: root :: 2022-01-05 07:59:46,021 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:59:46,021 :: Employee Details are : {'message': 'Error : id not found'}
+INFO :: root :: 2022-01-05 08:00:23,801 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 08:00:23,842 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 08:00:23,858 :: Started server process [3612]
+INFO :: uvicorn.error :: 2022-01-05 08:00:23,858 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 08:00:23,859 :: Application startup complete.
+INFO :: root :: 2022-01-05 08:00:27,856 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 08:00:27,856 :: Employee Details are : {'message': 'Error : id not found'}
+INFO :: root :: 2022-01-05 08:00:33,334 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 08:00:33,334 :: Employee Details are : {'message': "Error : id can't be empty"}
+INFO :: root :: 2022-01-05 08:20:21,064 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 08:20:21,064 :: Employee Details are : [{'id': 9, 'name': 'Samu', 'profile_image': 'ds.png', 'gender': 'Female', 'department': 'Account', 'salary': 300000.0, 'start_date': datetime.date(2007, 1, 4), 'notes': 'acct section'}]
+INFO :: root :: 2022-01-05 08:22:27,925 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-05 08:22:27,926 :: Employee ID is : 9
+INFO :: root :: 2022-01-05 08:22:48,786 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 08:22:48,786 :: Employee Details are : {'message': 'Error : id not found'}
+INFO :: root :: 2022-01-05 12:09:38,788 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 12:09:41,917 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 12:09:41,967 :: Started server process [7028]
+INFO :: uvicorn.error :: 2022-01-05 12:09:41,968 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 12:09:41,977 :: Application startup complete.
+ERROR :: root :: 2022-01-05 12:10:04,971 :: Error: id not found
+INFO :: root :: 2022-01-05 12:12:54,627 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 12:12:54,687 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 12:12:54,709 :: Started server process [8768]
+INFO :: uvicorn.error :: 2022-01-05 12:12:54,710 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 12:12:54,711 :: Application startup complete.
+INFO :: root :: 2022-01-05 12:13:56,222 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 12:13:56,275 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 12:13:56,337 :: Started server process [10160]
+INFO :: uvicorn.error :: 2022-01-05 12:13:56,338 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 12:13:56,338 :: Application startup complete.
+ERROR :: root :: 2022-01-05 12:13:59,678 :: Error: {'status': 402, 'message': 'Employee Details cannot be fetched', 'data': 'id not found'}
+INFO :: root :: 2022-01-05 12:16:15,705 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 12:16:15,734 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 12:16:15,744 :: Started server process [10444]
+INFO :: uvicorn.error :: 2022-01-05 12:16:15,745 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 12:16:15,745 :: Application startup complete.
+ERROR :: root :: 2022-01-05 12:16:19,565 :: Error: id not found
+INFO :: root :: 2022-01-05 12:17:22,749 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 12:17:22,779 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 12:17:22,790 :: Started server process [5172]
+INFO :: uvicorn.error :: 2022-01-05 12:17:22,790 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 12:17:22,791 :: Application startup complete.
+INFO :: root :: 2022-01-05 12:18:11,326 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 12:18:11,362 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 12:18:11,378 :: Started server process [8916]
+INFO :: uvicorn.error :: 2022-01-05 12:18:11,379 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 12:18:11,380 :: Application startup complete.
+ERROR :: root :: 2022-01-05 12:18:11,398 :: Error: id not found
+ERROR :: root :: 2022-01-05 12:18:16,898 :: Error: id not found
+INFO :: root :: 2022-01-05 12:20:02,195 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 12:20:02,250 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 12:20:02,263 :: Started server process [7624]
+INFO :: uvicorn.error :: 2022-01-05 12:20:02,263 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 12:20:02,264 :: Application startup complete.
+ERROR :: root :: 2022-01-05 12:20:07,631 :: Error: {'status': 402, 'message': 'Employee Details cannot be fetched', 'data': 'id not found'}
+INFO :: root :: 2022-01-05 12:21:08,529 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 12:21:09,890 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 12:21:09,906 :: Started server process [7160]
+INFO :: uvicorn.error :: 2022-01-05 12:21:09,906 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 12:21:09,907 :: Application startup complete.
+ERROR :: root :: 2022-01-05 12:21:09,968 :: Error: {'status': 402, 'message': 'Employee Details cannot be fetched', 'data': 'id not found'}
+INFO :: root :: 2022-01-05 12:21:45,015 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 12:21:45,074 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 12:21:45,121 :: Started server process [10904]
+INFO :: uvicorn.error :: 2022-01-05 12:21:45,122 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 12:21:45,123 :: Application startup complete.
+ERROR :: root :: 2022-01-05 12:21:47,264 :: Error: {'status': 402, 'message': 'Employee Details cannot be fetched', 'data': 'id not found'}
+INFO :: root :: 2022-01-05 12:22:08,621 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 12:22:08,652 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 12:22:08,664 :: Started server process [8208]
+INFO :: uvicorn.error :: 2022-01-05 12:22:08,665 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 12:22:08,665 :: Application startup complete.
+ERROR :: root :: 2022-01-05 12:22:11,343 :: Error: {'status': 402, 'message': 'Employee Details cannot be fetched', 'data': 'id not found'}
+ERROR :: root :: 2022-01-05 12:22:59,089 :: Error: {'status': 402, 'message': 'Employee Details cannot be fetched', 'data': 'id not found'}
+INFO :: root :: 2022-01-05 12:23:09,543 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 12:23:09,543 :: Employee Details are : [{'id': 3, 'name': 'Alex', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img3.png', 'gender': 'Male', 'department': 'HR', 'salary': 40000.0, 'start_date': datetime.date(2010, 1, 2), 'notes': 'Hard Working'}]
+INFO :: root :: 2022-01-05 12:25:15,289 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 12:25:15,322 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 12:25:15,332 :: Started server process [6956]
+INFO :: uvicorn.error :: 2022-01-05 12:25:15,333 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 12:25:15,335 :: Application startup complete.
+ERROR :: root :: 2022-01-05 12:25:15,353 :: Error: {'status': 402, 'message': 'Employee Details cannot be fetched', 'data': 'id not found'}
+ERROR :: uvicorn.error :: 2022-01-05 12:25:15,410 :: Exception in ASGI application
+Traceback (most recent call last):
+  File ".\main.py", line 41, in single_employee_data
+    employee_detail = operation.get_single_emp_data(id)
+  File ".\operations.py", line 39, in get_single_emp_data
+    raise Exception({"status": 402, "message": "Employee Details cannot be fetched", "data": "id not found"})
+Exception: {'status': 402, 'message': 'Employee Details cannot be fetched', 'data': 'id not found'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 376, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\fastapi\routing.py", line 226, in app
+    raw_response = await run_endpoint_function(
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\fastapi\routing.py", line 161, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\anyio\to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\anyio\_backends\_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\anyio\_backends\_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File ".\main.py", line 47, in single_employee_data
+    return {{e}}
+TypeError: unhashable type: 'set'
+ERROR :: root :: 2022-01-05 12:25:21,552 :: Error: {'status': 402, 'message': 'Employee Details cannot be fetched', 'data': 'id not found'}
+ERROR :: uvicorn.error :: 2022-01-05 12:25:21,554 :: Exception in ASGI application
+Traceback (most recent call last):
+  File ".\main.py", line 41, in single_employee_data
+    employee_detail = operation.get_single_emp_data(id)
+  File ".\operations.py", line 39, in get_single_emp_data
+    raise Exception({"status": 402, "message": "Employee Details cannot be fetched", "data": "id not found"})
+Exception: {'status': 402, 'message': 'Employee Details cannot be fetched', 'data': 'id not found'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 376, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\fastapi\routing.py", line 226, in app
+    raw_response = await run_endpoint_function(
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\fastapi\routing.py", line 161, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\anyio\to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\anyio\_backends\_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\anyio\_backends\_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File ".\main.py", line 47, in single_employee_data
+    return {{e}}
+TypeError: unhashable type: 'set'
+INFO :: uvicorn.error :: 2022-01-05 12:25:55,654 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 12:25:55,739 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 12:25:55,740 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 12:25:55,741 :: Finished server process [6956]
+INFO :: root :: 2022-01-05 12:26:01,919 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 12:26:01,948 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 12:26:01,959 :: Started server process [5144]
+INFO :: uvicorn.error :: 2022-01-05 12:26:01,960 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 12:26:01,960 :: Application startup complete.
+ERROR :: root :: 2022-01-05 12:26:05,463 :: Error: {'status': 402, 'message': 'Employee Details cannot be fetched', 'data': 'id not found'}
+ERROR :: uvicorn.error :: 2022-01-05 12:26:05,465 :: Exception in ASGI application
+Traceback (most recent call last):
+  File ".\main.py", line 41, in single_employee_data
+    employee_detail = operation.get_single_emp_data(id)
+  File ".\operations.py", line 39, in get_single_emp_data
+    raise Exception({"status": 402, "message": "Employee Details cannot be fetched", "data": "id not found"})
+Exception: {'status': 402, 'message': 'Employee Details cannot be fetched', 'data': 'id not found'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 376, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\fastapi\routing.py", line 226, in app
+    raw_response = await run_endpoint_function(
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\fastapi\routing.py", line 161, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\anyio\to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\anyio\_backends\_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "e:\pythonproject\fastapi_projects\apivenv\lib\site-packages\anyio\_backends\_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File ".\main.py", line 47, in single_employee_data
+    return {{e}}
+TypeError: unhashable type: 'set'
+INFO :: root :: 2022-01-05 12:26:57,440 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 12:26:57,473 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 12:26:57,490 :: Started server process [8172]
+INFO :: uvicorn.error :: 2022-01-05 12:26:57,491 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 12:26:57,492 :: Application startup complete.
+ERROR :: root :: 2022-01-05 12:27:03,957 :: Error: {'status': 402, 'message': 'Employee Details cannot be fetched', 'data': 'id not found'}
+INFO :: root :: 2022-01-05 16:55:27,867 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 16:55:28,827 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 16:55:28,849 :: Started server process [10580]
+INFO :: uvicorn.error :: 2022-01-05 16:55:28,850 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 16:55:28,852 :: Application startup complete.
+INFO :: root :: 2022-01-05 16:55:40,601 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 16:55:40,601 :: Employee Details are : {'message': "Error : {'status': 402, 'message': 'Employee Details cannot be fetched', 'data': 'id not found'}"}
+INFO :: root :: 2022-01-05 16:57:38,156 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 16:57:38,233 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 16:57:38,245 :: Started server process [9076]
+INFO :: uvicorn.error :: 2022-01-05 16:57:38,245 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 16:57:38,246 :: Application startup complete.
+ERROR :: root :: 2022-01-05 16:59:07,208 :: Error: {'status': 402, 'message': 'Employee Details cannot be fetched', 'data': 'id not found'}
+INFO :: root :: 2022-01-05 17:03:50,932 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 17:03:50,967 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 17:03:50,978 :: Started server process [6612]
+INFO :: uvicorn.error :: 2022-01-05 17:03:50,978 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 17:03:50,979 :: Application startup complete.
+INFO :: root :: 2022-01-05 20:15:28,022 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 20:15:30,334 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 20:15:30,348 :: Started server process [9980]
+INFO :: uvicorn.error :: 2022-01-05 20:15:30,349 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 20:15:30,350 :: Application startup complete.
+INFO :: root :: 2022-01-05 20:15:51,246 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 20:15:51,282 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 20:15:51,294 :: Started server process [9320]
+INFO :: uvicorn.error :: 2022-01-05 20:15:51,295 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 20:15:51,296 :: Application startup complete.
+INFO :: root :: 2022-01-05 20:17:14,014 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 20:17:14,068 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 20:17:14,085 :: Started server process [2640]
+INFO :: uvicorn.error :: 2022-01-05 20:17:14,085 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 20:17:14,086 :: Application startup complete.
+INFO :: root :: 2022-01-05 20:17:44,268 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 20:17:44,367 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 20:17:44,378 :: Started server process [892]
+INFO :: uvicorn.error :: 2022-01-05 20:17:44,378 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 20:17:44,379 :: Application startup complete.
+INFO :: root :: 2022-01-05 20:18:05,088 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 20:18:05,123 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 20:18:05,138 :: Started server process [6036]
+INFO :: uvicorn.error :: 2022-01-05 20:18:05,138 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 20:18:05,139 :: Application startup complete.
+INFO :: root :: 2022-01-05 20:18:52,423 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 20:18:52,460 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 20:18:52,474 :: Started server process [10044]
+INFO :: uvicorn.error :: 2022-01-05 20:18:52,474 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 20:18:52,475 :: Application startup complete.
+INFO :: root :: 2022-01-05 20:21:04,653 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 20:21:04,700 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 20:21:04,721 :: Started server process [7500]
+INFO :: uvicorn.error :: 2022-01-05 20:21:04,722 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 20:21:04,723 :: Application startup complete.
+INFO :: root :: 2022-01-05 20:21:18,541 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 20:21:18,573 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 20:21:18,584 :: Started server process [4828]
+INFO :: uvicorn.error :: 2022-01-05 20:21:18,585 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 20:21:18,585 :: Application startup complete.
+INFO :: root :: 2022-01-05 20:21:35,459 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 20:21:35,496 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 20:21:35,513 :: Started server process [10924]
+INFO :: uvicorn.error :: 2022-01-05 20:21:35,514 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 20:21:35,515 :: Application startup complete.
+INFO :: root :: 2022-01-05 20:21:54,581 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 20:21:54,617 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-05 20:21:54,630 :: Started server process [9528]
+INFO :: uvicorn.error :: 2022-01-05 20:21:54,630 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 20:21:54,631 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 20:21:57,942 :: Shutting down
+INFO :: root :: 2022-01-06 07:27:14,789 :: Trying to establish the database connection
+INFO :: root :: 2022-01-06 07:27:16,370 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-06 07:27:16,690 :: Started server process [9136]
+INFO :: uvicorn.error :: 2022-01-06 07:27:16,690 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-06 07:27:16,691 :: Application startup complete.
+INFO :: root :: 2022-01-06 07:29:27,245 :: Trying to establish the database connection
+INFO :: root :: 2022-01-06 07:29:27,915 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-06 07:29:29,206 :: Started server process [8440]
+INFO :: uvicorn.error :: 2022-01-06 07:29:29,207 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-06 07:29:29,208 :: Application startup complete.
+INFO :: root :: 2022-01-06 07:29:46,386 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-06 07:29:46,387 :: Employee Details are : [{'id': 21, 'name': 'Mama', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}]
+ERROR :: root :: 2022-01-06 07:29:46,387 :: Error: 'EmployeePayroll' object has no attribute 'id'
+INFO :: root :: 2022-01-06 07:30:19,317 :: Trying to establish the database connection
+INFO :: root :: 2022-01-06 07:30:19,384 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-06 07:30:19,602 :: Started server process [6956]
+INFO :: uvicorn.error :: 2022-01-06 07:30:19,603 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-06 07:30:19,604 :: Application startup complete.
+INFO :: root :: 2022-01-06 07:31:22,834 :: Trying to establish the database connection
+INFO :: root :: 2022-01-06 07:31:22,880 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-06 07:31:22,932 :: Started server process [6940]
+INFO :: uvicorn.error :: 2022-01-06 07:31:22,932 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-06 07:31:22,933 :: Application startup complete.
+INFO :: root :: 2022-01-06 07:32:32,905 :: Trying to establish the database connection
+INFO :: root :: 2022-01-06 07:32:32,940 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-06 07:32:32,979 :: Started server process [5468]
+INFO :: uvicorn.error :: 2022-01-06 07:32:32,980 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-06 07:32:32,980 :: Application startup complete.
+ERROR :: root :: 2022-01-06 07:33:19,994 :: Error: %d format: a number is required, not str
+INFO :: root :: 2022-01-06 07:33:59,676 :: Trying to establish the database connection
+INFO :: root :: 2022-01-06 07:34:02,175 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-06 07:34:02,590 :: Started server process [11104]
+INFO :: uvicorn.error :: 2022-01-06 07:34:02,591 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-06 07:34:02,592 :: Application startup complete.
+INFO :: root :: 2022-01-06 07:34:06,783 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-06 07:34:06,783 :: Employee Details are : [{'id': 21, 'name': 'Mama', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 40, 'name': 'Mama', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}]
+INFO :: root :: 2022-01-06 07:38:16,050 :: Trying to establish the database connection
+INFO :: root :: 2022-01-06 07:38:16,333 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-06 07:38:16,430 :: Started server process [9660]
+INFO :: uvicorn.error :: 2022-01-06 07:38:16,431 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-06 07:38:16,431 :: Application startup complete.
+INFO :: root :: 2022-01-06 07:41:53,851 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-06 07:41:53,851 :: Employee Details are : [{'id': 3, 'name': 'Alex', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img3.png', 'gender': 'Male', 'department': 'HR', 'salary': 40000.0, 'start_date': datetime.date(2010, 1, 2), 'notes': 'Hard Working'}, {'id': 4, 'name': 'Manali', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'Finance', 'salary': 2500000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 7, 'name': 'Bill', 'profile_image': 'df.png', 'gender': 'Male', 'department': 'Account', 'salary': 458000.0, 'start_date': datetime.date(2015, 1, 4), 'notes': 'acct section'}, {'id': 8, 'name': 'Sam', 'profile_image': 'ds.png', 'gender': 'Male', 'department': 'Account', 'salary': 400000.0, 'start_date': datetime.date(2005, 1, 4), 'notes': 'acct section'}, {'id': 13, 'name': 'mukul', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'Finance', 'salary': 52000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 14, 'name': 'Manal', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'Finance', 'salary': 3500000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 15, 'name': 'Mana', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'Finance', 'salary': 300000.0, 'start_date': datetime.date(2014, 1, 2), 'notes': 'Team player'}, {'id': 16, 'name': 'Manav', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 17, 'name': 'Manav', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 18, 'name': 'mukul', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 25900.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 21, 'name': 'Mama', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 40, 'name': 'Mama', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}]
+INFO :: root :: 2022-01-06 07:43:07,836 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-06 07:43:07,836 :: Employee Details are : [{'id': 41, 'name': 'M', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}]
+INFO :: root :: 2022-01-06 07:43:18,879 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-06 07:43:18,880 :: Employee Details are : [{'id': 3, 'name': 'Alex', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img3.png', 'gender': 'Male', 'department': 'HR', 'salary': 40000.0, 'start_date': datetime.date(2010, 1, 2), 'notes': 'Hard Working'}, {'id': 4, 'name': 'Manali', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'Finance', 'salary': 2500000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 7, 'name': 'Bill', 'profile_image': 'df.png', 'gender': 'Male', 'department': 'Account', 'salary': 458000.0, 'start_date': datetime.date(2015, 1, 4), 'notes': 'acct section'}, {'id': 8, 'name': 'Sam', 'profile_image': 'ds.png', 'gender': 'Male', 'department': 'Account', 'salary': 400000.0, 'start_date': datetime.date(2005, 1, 4), 'notes': 'acct section'}, {'id': 13, 'name': 'mukul', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'Finance', 'salary': 52000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 14, 'name': 'Manal', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'Finance', 'salary': 3500000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 15, 'name': 'Mana', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'Finance', 'salary': 300000.0, 'start_date': datetime.date(2014, 1, 2), 'notes': 'Team player'}, {'id': 16, 'name': 'Manav', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 17, 'name': 'Manav', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 18, 'name': 'mukul', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 25900.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 21, 'name': 'Mama', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 40, 'name': 'Mama', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 41, 'name': 'M', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}]
+INFO :: root :: 2022-01-06 07:50:37,715 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-06 07:50:37,784 :: Employee Details are : [{'id': 3, 'name': 'Alex', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img3.png', 'gender': 'Male', 'department': 'HR', 'salary': 40000.0, 'start_date': datetime.date(2010, 1, 2), 'notes': 'Hard Working'}, {'id': 4, 'name': 'Manali', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'Finance', 'salary': 2500000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 7, 'name': 'Bill', 'profile_image': 'df.png', 'gender': 'Male', 'department': 'Account', 'salary': 458000.0, 'start_date': datetime.date(2015, 1, 4), 'notes': 'acct section'}, {'id': 8, 'name': 'Sam', 'profile_image': 'ds.png', 'gender': 'Male', 'department': 'Account', 'salary': 400000.0, 'start_date': datetime.date(2005, 1, 4), 'notes': 'acct section'}, {'id': 13, 'name': 'mukul', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'Finance', 'salary': 52000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 14, 'name': 'Manal', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'Finance', 'salary': 3500000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 15, 'name': 'Mana', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'Finance', 'salary': 300000.0, 'start_date': datetime.date(2014, 1, 2), 'notes': 'Team player'}, {'id': 16, 'name': 'Manav', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 17, 'name': 'Manav', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 18, 'name': 'mukul', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 25900.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 21, 'name': 'Mama', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 40, 'name': 'Mama', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 41, 'name': 'M', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}]
+ERROR :: root :: 2022-01-06 07:50:54,437 :: Error: Signature verification failed
+ERROR :: root :: 2022-01-06 07:51:28,063 :: Error: Signature verification failed
+INFO :: root :: 2022-01-06 07:51:33,827 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-06 07:51:33,827 :: Employee Details are : [{'id': 3, 'name': 'Alex', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img3.png', 'gender': 'Male', 'department': 'HR', 'salary': 40000.0, 'start_date': datetime.date(2010, 1, 2), 'notes': 'Hard Working'}, {'id': 4, 'name': 'Manali', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'Finance', 'salary': 2500000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 7, 'name': 'Bill', 'profile_image': 'df.png', 'gender': 'Male', 'department': 'Account', 'salary': 458000.0, 'start_date': datetime.date(2015, 1, 4), 'notes': 'acct section'}, {'id': 8, 'name': 'Sam', 'profile_image': 'ds.png', 'gender': 'Male', 'department': 'Account', 'salary': 400000.0, 'start_date': datetime.date(2005, 1, 4), 'notes': 'acct section'}, {'id': 13, 'name': 'mukul', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'Finance', 'salary': 52000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 14, 'name': 'Manal', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'Finance', 'salary': 3500000.0, 'start_date': datetime.date(2015, 1, 2), 'notes': 'Team Lead'}, {'id': 15, 'name': 'Mana', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'Finance', 'salary': 300000.0, 'start_date': datetime.date(2014, 1, 2), 'notes': 'Team player'}, {'id': 16, 'name': 'Manav', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 17, 'name': 'Manav', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 18, 'name': 'mukul', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 25900.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 21, 'name': 'Mama', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 40, 'name': 'Mama', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}, {'id': 41, 'name': 'M', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'Female', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}]
+INFO :: root :: 2022-01-06 07:53:48,273 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-06 07:53:48,324 :: Employee Details are : [{'id': 42, 'name': 'Tata', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}]
+ERROR :: root :: 2022-01-06 07:54:17,531 :: Error: Signature verification failed
+INFO :: root :: 2022-01-06 07:58:43,964 :: Trying to establish the database connection
+ERROR :: root :: 2022-01-06 07:59:17,444 :: Connection not Established
+INFO :: root :: 2022-01-06 08:00:11,993 :: Trying to establish the database connection
+INFO :: root :: 2022-01-06 08:00:12,578 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-06 08:00:12,965 :: Started server process [4136]
+INFO :: uvicorn.error :: 2022-01-06 08:00:12,965 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-06 08:00:12,975 :: Application startup complete.
+INFO :: root :: 2022-01-06 08:00:18,935 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-06 08:00:18,935 :: Employee Details are : [{'id': 43, 'name': 'Ta', 'profile_image': 'E:pythonProjectfastApi_projectsphotoemployee-img2.png', 'gender': 'male', 'department': 'HR', 'salary': 900000.0, 'start_date': datetime.date(2011, 1, 2), 'notes': 'Head'}]
+INFO :: root :: 2022-01-06 08:03:37,766 :: Trying to establish the database connection
+INFO :: root :: 2022-01-06 08:03:39,982 :: Database Connection is Established
+INFO :: uvicorn.error :: 2022-01-06 08:03:40,720 :: Started server process [10380]
+INFO :: uvicorn.error :: 2022-01-06 08:03:40,721 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-06 08:03:40,722 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-06 08:03:59,115 :: Shutting down
