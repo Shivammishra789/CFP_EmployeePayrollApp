@@ -7,6 +7,7 @@ import jwt
 
 class JwtHandler:
 
+    @staticmethod
     def encode_token(id):
         """
             desc: this function will encode the payload into a token
@@ -17,6 +18,7 @@ class JwtHandler:
         token_id = jwt.encode(payload, "my_super_secret")
         return token_id
 
+    @staticmethod
     def decode_token(token_id):
         """
             desc: this function will decode the token into a payload
