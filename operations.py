@@ -43,17 +43,19 @@ class DBOperations:
             param: name, profile, gender, department, salary, start_date, notes
             return: employee detail
         """
-
-        query = "insert into employee_details (id, name, profile_image, gender, department, salary," \
-                                               " start_date, notes) VALUES \
-                                               (%d,'%s','%s', '%s', '%s', %0.2f, '%s', '%s')" \
-                                               % (id, name, profile, gender, department, salary, start_date, notes)
-        self.cursor.execute(query)
-        self.connection.commit()
-        query2 = "select * from employee_details where name='%s'" %name
-        self.cursor.execute(query2)
-        employee_detail = [i for i in self.cursor]
-        return employee_detail
+        try:
+            query = "insert into employee_details (id, name, profile_image, gender, department, salary," \
+                                                   " start_date, notes) VALUES \
+                                                   (%d,'%s','%s', '%s', '%s', %0.2f, '%s', '%s')" \
+                                                   % (id, name, profile, gender, department, salary, start_date, notes)
+            self.cursor.execute(query)
+            self.connection.commit()
+            query2 = "select * from employee_details where name='%s'" %name
+            self.cursor.execute(query2)
+            employee_detail = [i for i in self.cursor]
+            return employee_detail
+        except Exception as e:
+            raise Exception("Id already exists")
 
     def delete_employee_details(self, id:int):
         """
@@ -61,10 +63,13 @@ class DBOperations:
             param: id
             return: string
         """
-        query = "delete from employee_details where id=%d" %id
-        self.cursor.execute(query)
-        self.connection.commit()
-        return f"Employee deleted successfully with id: {id}"
+        try:
+            query = "delete from employee_details where id=%d" %id
+            self.cursor.execute(query)
+            self.connection.commit()
+            return id
+        except:
+            raise Exception("Id not found")
 
     def update_employee_salary(self, id, salary):
         """
@@ -72,11 +77,14 @@ class DBOperations:
             param: id, salary
             return: updated detail in dict form
         """
-        query = "update employee_details set salary = %0.2f where id = %d" %(salary, id)
-        self.cursor.execute(query)
-        self.connection.commit()
-        updated_detail = self.get_single_emp_data(id)
-        return updated_detail
+        try:
+            query = "update employee_details set salary = %0.2f where id = %d" %(salary, id)
+            self.cursor.execute(query)
+            self.connection.commit()
+            updated_detail = self.get_single_emp_data(id)
+            return updated_detail
+        except:
+            raise Exception("Id not found")
 
     def update_employee_name(self, id, name):
         """
@@ -84,11 +92,14 @@ class DBOperations:
             param: id, name
             return: updated detail in dict form
         """
-        query = "update employee_details set name = %s where id = %d" % (name, id)
-        self.cursor.execute(query)
-        self.connection.commit()
-        updated_detail = self.get_single_emp_data(id)
-        return updated_detail
+        try:
+            query = "update employee_details set name = %s where id = %d" % (name, id)
+            self.cursor.execute(query)
+            self.connection.commit()
+            updated_detail = self.get_single_emp_data(id)
+            return updated_detail
+        except:
+            raise Exception("Id not found")
 
     def update_employee_profile_img(self, id, profile_image):
         """

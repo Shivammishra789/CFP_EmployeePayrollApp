@@ -56,18 +56,19 @@ def add_employee_details(emp: EmployeePayroll):
         return: employee details added in SMD format
     """
     try:
+
         employee_details = operation.add_employee(emp.id, emp.name, emp.profile_image, emp.gender, emp.department, emp.salary,
                                                      emp.start_date, emp.notes)
         logging.info("Successfully Added Employee Details")
         logging.debug(f"Employee Details are : {employee_details}")
         token_id = JwtHandler.encode_token(emp.id)
-        return token_id
+        return {"status": 200, "message": "Employee Details added successfully", "data": token_id}
     except Exception as e:
         logging.error(f"Error: {e}")
         return {"status": 500, "message": f"Error : {e}"}
 
 
-@app.delete("/delete_employee")
+@app.delete("/delete_employee{id}")
 def delete_employee_details(id:int):
     """
         desc: delete method to delete employee details
@@ -75,10 +76,10 @@ def delete_employee_details(id:int):
         return: updated employee details in SMD format
     """
     try:
-        message = operation.delete_employee_details(id)
+        deleted_id = operation.delete_employee_details(id)
         logging.info("Successfully Deleted The Employee Details")
         logging.debug(f"Employee ID is : {id}")
-        return {"status": 200, "message": message}
+        return {"status": 200, "message": "Successfully Deleted The Employee Details", "data": deleted_id}
     except Exception as e:
         logging.error(f"Error: {e}")
         return {"status": 500, "message": f"Error : {e}"}
@@ -154,12 +155,12 @@ def update_employee_gender(id: int, gender: str):
         return {"status": 500, "message": f"Error : {e}"}
 
 
-@app.post("/login/{id}")
+@app.post("/login/")
 def login(token: str = Header(None)):
     """
         desc: employee login by entering the token number generated at employee creation time
         param: token: encoded employee id
-        return
+        return: employee details in SMD format
     """
     try:
         token_id = JwtHandler.decode_token(token)
